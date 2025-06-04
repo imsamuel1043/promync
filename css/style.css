@@ -30,7 +30,7 @@ header {
   padding: 30px 50px;
   background-color: #00000050;
   color: white;
-  
+
 }
 
 .logo {
@@ -214,7 +214,7 @@ table {
 }
 
 .section5 {
-  background-image: url(img/blurred\ 2nd\ bg.jpg);
+  background-image: url(../img/blurred\ 2nd\ bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -269,6 +269,7 @@ table {
   color: white;
   font-size: 17px;
   font-family: 'Lato';
+  overflow: hidden;
 }
 
 .section6 h2 {
@@ -281,7 +282,7 @@ table {
 .section6 img {
   position: relative;
   overflow: hidden;
-  left: 754px;
+  left: 756px;
   width: 668px;
   height: 380px;
   border-radius: 4px;
@@ -295,7 +296,7 @@ table {
 }
 
 .section7 {
-  background-image: url(img/pink-2nd-cloud.png);
+  background-image: url(../img/pink-2nd-cloud.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 60px;
@@ -315,7 +316,8 @@ table {
 .type {
   font-size: 20px;
 }
-.type2{
+
+.type2 {
   font-size: 18px;
 }
 
@@ -468,7 +470,8 @@ table {
   padding-left: 15px;
   padding-right: 15px;
 }
-.image{
+
+.image {
   height: 70px;
   width: 150px;
   padding-top: 40px;
@@ -620,20 +623,21 @@ table {
     width: 200px;
     border-radius: 8px;
   }
-  
+
 
   .nav-links.active {
     display: flex;
     background-color: rgba(77, 76, 76, 0.342);
   }
+
   .navbar {
-  position: fixed;
-  top: 19px;
-  width: 67%;
-  background-color: rgba(0, 0, 0, 0.37);
-  z-index: 1000;
-  height: 15px;
-}
+    position: fixed;
+    top: 19px;
+    width: 85%;
+    background-color: rgba(0, 0, 0, 0.37);
+    z-index: 1000;
+    height: 15px;
+  }
 
   .menu-toggle {
     color: white;
@@ -807,7 +811,7 @@ table {
   }
 
   .section5 {
-    background-image: url(img/blurred\ 2nd\ bg.jpg);
+    background-image: url(../img/blurred\ 2nd\ bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -879,7 +883,7 @@ table {
   }
 
   .section7 {
-    background-image: url(img/pink-2nd-cloud.png);
+    background-image: url(../img/pink-2nd-cloud.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 60px;
@@ -913,7 +917,8 @@ table {
   .type {
     font-size: 14px;
   }
-  .type2{
+
+  .type2 {
     font-size: 12px;
   }
 
@@ -1032,17 +1037,17 @@ table {
   .section10 h4 {
     color: black;
     font-family: 'Permanent Marker';
-    font-size: 15px;
+    font-size: 20px;
     text-align: start;
-    padding-left: 163px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-top: 80px;
   }
 
   .parag {
     font-family: 'Lato';
-    font-size: 12px;
-    padding-bottom: 15px;
-    padding-left: 164px;
+    font-size: 11px;
+    padding-bottom: 60px;
+    padding-left: 50px;
   }
 
   .section10 button {
@@ -1053,583 +1058,627 @@ table {
     padding-right: 15px;
   }
 
-  .abc {
-    padding-top: 100px;
-    padding-left: 20px;
-  }
-  .footer {
-  background-color: #111;
-  color: #fff;
-  font-family: 'Lato', sans-serif;
-  padding: 30px 20px;
-}
-
-.footer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.footer-left,
-.footer-links > div,
-.subscribe {
-  flex: 1 1 200px;
-  min-width: 220px;
-}
-
-.mycologo {
-  width: 120px;
-  margin-bottom: 10px;
-}
-
-.social-icons {
-  margin: 10px 0;
-}
-
-.social-icons a {
-  color: white;
-  margin-right: 10px;
-  font-size: 18px;
-  text-decoration: none;
-}
-
-.contact-info p {
-  font-size: 13px;
-  margin: 6px 0;
-}
-
-.footer-links h3,
-.subscribe h3 {
-  font-size: 14px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links ul li {
-  margin-bottom: 6px;
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.subscribe input[type="email"] {
-  width: 60%;
-  padding: 8px;
-  margin: 10px 0;
-  font-size: 13px;
-  border: none;
-  border-radius: 4px;
-}
-
-.subscribe label {
-  font-size: 12px;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.subscribe button {
-  padding: 8px 16px;
-  background-color: #fff;
-  color: #111;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 13px;
-  border-radius: 4px;
-}
-
-.copyright {
-  text-align: center;
-  font-size: 12px;
-  margin-top: 30px;
-  border-top: 1px solid #333;
-  padding-top: 15px;
-}
-
-@media (max-width: 425px) {
-   .nav-links {
-    display: none;
-    flex-direction: column;
-    color: white;
-    background: #a1a1a1;
-    font-size: 10px;
-    padding: 42px;
-    position: absolute;
-    gap: 20px;
-    top: 0px;
-    right: 246px;
-    width: 80px;
-    height: 135px;
-    border-radius: 5px;
-  }
-
-  .nav-links.active {
-    display: flex;
-    background-color: rgb(0, 0, 0);
-  }
-
-  .menu-toggle {
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    border: 0px;
-    margin-left: 80%;
-    display: block;
-   
-  }
-   .navbar {
-  position: fixed;
-  top: 13px;
-  width: 72%;
-  background-color: rgb(0, 0, 0);
-  z-index: 1000;
-  height: 0px;
-}
-
-  header {
-    background-image: url("../img/2promyc.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 650px;
-    background-size: contain;
-    background-position: center top;
-    height: auto;
-    aspect-ratio: 16 / 9;
-  }
-
-  .logo {
-    position: absolute;
-    top: 10px;
-    width: 39px;
-    height: 33px;
-    padding-top: 6px;
-    padding-left: 20px;
-    align-items: center;
-
-  }
-
-  h1 {
-    text-align: center;
-    font-family: 'Permanent Marker';
-    font-size: 20px;
-    padding-top: 83px;
-    color: white;
-    letter-spacing: 100%;
-    font-weight: 100;
-  }
-
-  h4 {
-    font-family: 'Lato';
-    font-size: 10px;
-    text-align: center;
-    color: white;
-    padding-bottom: 1px;
-  }
-   .name {
-    font-family: 'Lato';
-    text-align: center;
-    font-size: 15px;
-    padding-top: 15px;
-    text-indent: 10px;
-  }
-
-  .aboutus {
-    font-family: 'Lato';
-    text-align: center;
-    font-size: 8px;
-    padding-bottom: 35px;
-  }
-  .section2 {
-    flex-direction: column; 
-    align-items: center;   
-    height: auto;          
-    padding: 10px;
-    text-align: center;
-  }
-
-  .section2 img {
-    width: 100%;         
-    height: auto;
-    max-width: 400px;    
-  }
-
-  .explain2 {
-    padding: 15px 20px;
-  }
-
-  .explain2 h2 {
-    font-size: 18px;
-    
-  }
-
-  .explain2 p {
-    font-size: 11px;
-  }
-
-.section3 {
-    background-color: #f8f2e7;
-    padding: 10px;
-    padding-bottom: 25px;
-  }
-
-  table {
-    background-color: #f8f2e7;
-    margin-left: 0px;
-    margin-top: 25px;
-    border-collapse: separate;
-    border-spacing: 23px 0px;
-  }
-
-  .caption {
-    font-size: 10px;
-    font-family: 'Lato';
-  }
-
-  .caption2 {
-    text-align: center;
-    font-size: 8px;
-    font-family: 'Lato';
-  }
-
-  .frame-row {
-    width: 36px;
-    height: 24px;
-  }
-
-  .h3 {
-    font-family: 'Lato';
-    text-align: center;
-    font-size: 10px;
-  }
-
-  .h3p {
-    font-family: 'Lato';
-    text-align: center;
-    font-size: 5px;
-  }
-
-  .ntg {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding-left: 380px;
-    padding-top: 200px;
-    gap: 50px;
-  }
-  .section4 {
-    flex-direction: column-reverse;
-    align-items: center;
-    padding: 16px;
-  }
-
-  .section4 img {
-    padding-left: 0;
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-  }
-
-  .heading {
-    padding-left: 0;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 14px;
-  }
-
-  .picexp {
-    font-size: 18px;
-  }
-
-  .heading p {
-    font-size: 12px;
-    line-height: 1.5;
-    padding: 0 10px;
-  }
-   .section5 {
-    background-image: url(../img/blurred\ 2nd\ bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 420px;
-  }
-
-  .section5 div {
-    text-align: center;
-    padding-top: 30px;
-    font-family: 'Lato';
-    font-size: 13px;
-  }
-
-  .section5 h3 {
-    font-family: 'Lato';
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .png {
-    background-color: #f8f2e700;
-    font-family: 'Lato';
-    font-size: 10px;
-    margin-left: 15px;
-    text-align: center;
-  }
-
-  .png0 {
-    background-color: #f8f2e700;
-    font-family: 'Lato';
-    font-size: 10px;
-    margin-left: 12px;
-    text-align: center;
-
-  }
-
-  .size {
-    height: 28px;
-    width: 25px;
-  }
-
-  .letter {
-    font-size: 10px
-  }
-
-  .space {
+  .image {
+    height: 30px;
     width: 100px;
-  }
-  .section6 {
-    flex-direction: column;
-    align-items: center;
-    padding: 16px;
-    padding-bottom: 30px;
+    padding-top: 40px;
   }
 
-  .section6 img {
-    position: static;
-    transform: none;
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+  .abc {
+    padding-top: 96px;
+    padding-left: 55px;
   }
 
-  .promycfat {
-    text-align: center;
-  }
 
-  .section6 h2 {
-    font-size: 14px;
-  }
-
-  .section6 p {
-    font-size: 10px;
-    padding-left: 50px;
-   
-  }
-   .section7 {
-    background-image: url(../img/pink-2nd-cloud.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 60px;
-    padding-top: 30px;
-  }
-
-  .center {
-    font-family: 'Lato';
-    text-align: center;
-  }
-
-  .center h3 {
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .center p {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .colourless {
-    font-family: 'Lato';
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0);
-    padding-right: 40px;
-    padding-left: 23%;
-    margin-right: 0%;
-  }
-
-  .type {
-    font-size: 8px;
-  }
-
-  .pic {
-    width: 30px;
-    height: 35px;
-  }
- .section8 {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding: 16px;
-  }
-
-  .section8 img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .para {
-    padding-left: 0;
-    padding-top: 0;
-    text-align: center;
-  }
-
-  .para h2 {
-    font-size: 18px;
-  }
-
-  .para p {
-    font-size: 1px;
-    line-height: 1.4;
-    padding: 0 12px;
-  }
-  .section9 {
-    background-color: hsla(40, 55%, 94%, 1);
-    padding-top: 18px;
-    padding-bottom: 45px;
-  }
-
-  .section9 h2 {
-    font-family: 'Lato';
-    text-align: center;
-    font-size: 16px;
-  }
-
-  .section9 p {
-    font-family: 'Lato';
-    font-size: 8px;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
-  .box {
-
-    display: flex;
-    justify-content: space-between;
-    gap: 5px;
-    align-items: center;
-    flex-basis: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-
-  }
-
-  .card {
-    flex: 0 0 88px;
-    background-color: white;
-    width: 20px;
-    height: 120px;
-    padding: 15px;
-    border: 1px solid #ececec;
-    border-radius: 12px;
-    box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-family: 'Lato';
-  }
-
-  .card img {
-    max-width: 72%;
-    height: auto;
-    border-radius: 1px;
-  }
-
-  .card h4 {
-    color: black;
-    font-size: 7px;
-    font-family: 'Lato';
-  }
-
-  .card p {
-    font-size: 5px;
-    font-family: 'Lato';
-  }
-
-  .box2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 8px;
-    padding-top: 10px;
-    margin-left: 82px;
-    margin-right: 153px;
-
-  }
-  .section10 h4 {
-    color: black;
-    font-family: 'Permanent Marker';
-    font-size: 13px;
-    text-align: start;
-    padding-left: 47px;
-    padding-top: 30px;
-  }
-  .parag {
-    font-family: 'Lato';
-    font-size: 11px;
-    padding-bottom: 15px;
-    padding-left: 47px;
+  .footer {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 30px 20px;
   }
 
   .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 30px;
   }
 
   .footer-left,
-  .footer-links,
+  .footer-links>div,
   .subscribe {
-    width: 100%;
-    padding: 15px 0;
-  }
-
-  .social-icons a {
-    font-size: 20px;
-    margin: 0 6px;
+    flex: 1 1 130px;
+    min-width: 220px;
   }
 
   .footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
+    margin-top: 0PX;
+  }
+
+  .mycologo {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  .social-icons {
+    margin: 10px 0;
+  }
+
+  .social-icons a {
+    color: white;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+  .contact-info p {
+    font-size: 13px;
+    margin: 6px 0;
+  }
+
+  .footer-links h3,
+  .subscribe h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   .footer-links ul li {
-    font-size: 14px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    cursor: pointer;
   }
 
   .subscribe input[type="email"] {
-    font-size: 14px;
-  }
-
-  .subscribe button {
-    font-size: 14px;
-    width: 100%;
-    margin-top: 8px;
+    width: 60%;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 13px;
+    border: none;
+    border-radius: 4px;
   }
 
   .subscribe label {
     font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .subscribe button {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #111;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 4px;
   }
 
   .copyright {
-    font-size: 11px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 15px;
   }
 
-  
+  @media (max-width: 425px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      color: white;
+      background: #a1a1a1;
+      font-size: 10px;
+      padding: 42px;
+      position: absolute;
+      gap: 20px;
+      top: 0px;
+      right: 242px;
+      width: 80px;
+      height: 135px;
+      border-radius: 5px;
+    }
 
-}
+    .nav-links.active {
+      display: flex;
+      background-color: rgb(0, 0, 0);
+    }
+
+    .menu-toggle {
+      color: rgb(255, 255, 255);
+      border-radius: 5px;
+      border: 0px;
+      margin-left: 80%;
+      display: block;
+
+    }
+
+    .navbar {
+      position: fixed;
+      top: 13px;
+      width: 72%;
+      background-color: rgb(0, 0, 0);
+      z-index: 1000;
+      height: 0px;
+    }
+
+    header {
+      background-image: url("../img/2promyc.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 650px;
+      background-size: contain;
+      background-position: center top;
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+
+    .logo {
+      position: absolute;
+      top: 10px;
+      width: 39px;
+      height: 33px;
+      padding-top: 6px;
+      padding-left: 20px;
+      align-items: center;
+
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Permanent Marker';
+      font-size: 20px;
+      padding-top: 83px;
+      color: white;
+      letter-spacing: 100%;
+      font-weight: 100;
+    }
+
+    h4 {
+      font-family: 'Lato';
+      font-size: 10px;
+      text-align: center;
+      color: white;
+      padding-bottom: 1px;
+    }
+
+    .name {
+      font-family: 'Lato';
+      text-align: center;
+      font-size: 15px;
+      padding-top: 15px;
+      text-indent: 10px;
+    }
+
+    .aboutus {
+      font-family: 'Lato';
+      text-align: center;
+      font-size: 8px;
+      padding-bottom: 35px;
+    }
+
+    .section2 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .section2 img {
+      width: 100%;
+      height: auto;
+      max-width: 400px;
+    }
+
+    .explain2 {
+      padding: 15px 20px;
+    }
+
+    .explain2 h2 {
+      font-size: 18px;
+
+    }
+
+    .explain2 p {
+      font-size: 11px;
+    }
+
+    .section3 {
+      background-color: #f8f2e7;
+      padding: 10px;
+      padding-bottom: 25px;
+    }
+
+    table {
+      background-color: #f8f2e7;
+      margin-left: 0px;
+      margin-top: 25px;
+      border-collapse: separate;
+      border-spacing: 23px 0px;
+    }
+
+    .caption {
+      font-size: 10px;
+      font-family: 'Lato';
+    }
+
+    .caption2 {
+      text-align: center;
+      font-size: 8px;
+      font-family: 'Lato';
+    }
+
+    .frame-row {
+      width: 36px;
+      height: 24px;
+    }
+
+    .h3 {
+      font-family: 'Lato';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .h3p {
+      font-family: 'Lato';
+      text-align: center;
+      font-size: 5px;
+    }
+
+    .ntg {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding-left: 380px;
+      padding-top: 200px;
+      gap: 50px;
+    }
+
+    .section4 {
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 16px;
+    }
+
+    .section4 img {
+      padding-left: 0;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .heading {
+      padding-left: 0;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .picexp {
+      font-size: 18px;
+    }
+
+    .heading p {
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 0 10px;
+    }
+
+    .section5 {
+      background-image: url(../img/blurred\ 2nd\ bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 420px;
+    }
+
+    .section5 div {
+      text-align: center;
+      padding-top: 30px;
+      font-family: 'Lato';
+      font-size: 13px;
+    }
+
+    .section5 h3 {
+      font-family: 'Lato';
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .png {
+      background-color: #f8f2e700;
+      font-family: 'Lato';
+      font-size: 10px;
+      margin-left: 15px;
+      text-align: center;
+    }
+
+    .png0 {
+      background-color: #f8f2e700;
+      font-family: 'Lato';
+      font-size: 10px;
+      margin-left: 12px;
+      text-align: center;
+
+    }
+
+    .size {
+      height: 28px;
+      width: 25px;
+    }
+
+    .letter {
+      font-size: 10px
+    }
+
+    .space {
+      width: 100px;
+    }
+
+    .section6 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .section6 img {
+      width: 100%;
+      height: auto;
+      max-width: 400px;
+      left: 1%;
+    }
+
+    .promycfat {
+      padding: 15px 20px;
+    }
+
+    .promycfat h2 {
+      font-family: 'Permanent Marker', cursive;
+      font-size: 18px;
+      margin-bottom: 10px;
+      right: 1%;
+    }
+
+    .promycfat p {
+      font-size: 11px;
+      line-height: 1.5;
+      right: 1%;
+    }
+
+    .section7 {
+      background-image: url(../img/pink-2nd-cloud.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 60px;
+      padding-top: 30px;
+    }
+
+    .center {
+      font-family: 'Lato';
+      text-align: center;
+    }
+
+    .center h3 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .center p {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .colourless {
+      font-family: 'Lato';
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0);
+      padding-right: 40px;
+      padding-left: 12%;
+      margin-right: 0%;
+    }
+
+    .type {
+      font-size: 12px;
+    }
+
+    .pic {
+      width: 30px;
+      height: 35px;
+    }
+
+    .section8 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      padding: 16px;
+    }
+
+    .section8 img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .para {
+      padding-left: 0;
+      padding-top: 0;
+      text-align: center;
+    }
+
+    .para h2 {
+      font-size: 18px;
+    }
+
+    .para p {
+      font-size: 11px;
+      line-height: 1.4;
+      padding: 0 12px;
+    }
+
+    .section9 {
+      background-color: hsla(40, 55%, 94%, 1);
+      padding-top: 18px;
+      padding-bottom: 45px;
+    }
+
+    .section9 h2 {
+      font-family: 'Lato';
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .section9 p {
+      font-family: 'Lato';
+      font-size: 8px;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+
+    .box {
+
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+      align-items: center;
+      flex-basis: 100px;
+      margin-left: 20px;
+      margin-right: 20px;
+
+    }
+
+    .card {
+      flex: 0 0 88px;
+      background-color: white;
+      width: 20px;
+      height: 120px;
+      padding: 15px;
+      border: 1px solid #ececec;
+      border-radius: 12px;
+      box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-family: 'Lato';
+    }
+
+    .card img {
+      max-width: 72%;
+      height: auto;
+      border-radius: 1px;
+    }
+
+    .card h4 {
+      color: black;
+      font-size: 7px;
+      font-family: 'Lato';
+    }
+
+    .card p {
+      font-size: 5px;
+      font-family: 'Lato';
+    }
+
+    .box2 {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      padding-top: 10px;
+      margin-left: 82px;
+      margin-right: 153px;
+
+    }
+
+     .section10 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image {
+    order: -1; 
+    padding-top: 20px;
+    padding-left: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .abc {
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  .section10 h4,
+  .parag {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .section10 h4 {
+    padding-top: 20px;
+  }
+
+  .parag {
+    padding-bottom: 20px;
+  }
+
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer-left,
+    .footer-links,
+    .subscribe {
+      width: 100%;
+      padding: 15px 0;
+    }
+
+    .social-icons a {
+      font-size: 20px;
+      margin: 0 6px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+    }
+
+    .footer-links ul li {
+      font-size: 14px;
+    }
+
+    .subscribe input[type="email"] {
+      font-size: 14px;
+    }
+
+    .subscribe button {
+      font-size: 14px;
+      width: 100%;
+      margin-top: 8px;
+    }
+
+    .subscribe label {
+      font-size: 12px;
+    }
+
+    .copyright {
+      font-size: 11px;
+    }
+
+
+  }
 }
