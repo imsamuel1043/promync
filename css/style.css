@@ -237,7 +237,7 @@ table {
   background-color: #f8f2e700;
   font-family: 'Lato';
   font-size: 15px;
-  margin-left: 240px;
+  margin-left: 200px;
   text-align: center;
 }
 
@@ -245,7 +245,7 @@ table {
   background-color: #f8f2e700;
   font-family: 'Lato';
   font-size: 15px;
-  margin-left: 240px;
+  margin-left: 200px;
   text-align: center;
 
 }
@@ -275,14 +275,14 @@ table {
 .section6 h2 {
   position: relative;
   font-size: 35px;
-  right: 550px;
+  right: 545px;
   padding-top: 30px;
 }
 
 .section6 img {
   position: relative;
   overflow: hidden;
-  left: 756px;
+  left: 650px;
   width: 668px;
   height: 380px;
   border-radius: 4px;
@@ -1205,7 +1205,7 @@ table {
     .navbar {
       position: fixed;
       top: 13px;
-      width: 72%;
+      width: 72.6%;
       background-color: rgb(0, 0, 0);
       z-index: 1000;
       height: 0px;
@@ -1333,7 +1333,7 @@ table {
     .h3p {
       font-family: 'Lato';
       text-align: center;
-      font-size: 5px;
+      font-size: 7px;
     }
 
     .ntg {
@@ -1564,7 +1564,7 @@ table {
       flex: 0 0 88px;
       background-color: white;
       width: 20px;
-      height: 120px;
+      height: 165px;
       padding: 15px;
       border: 1px solid #ececec;
       border-radius: 12px;
@@ -1581,7 +1581,7 @@ table {
 
     .card h4 {
       color: black;
-      font-size: 7px;
+      font-size: 11px;
       font-family: 'Lato';
     }
 
