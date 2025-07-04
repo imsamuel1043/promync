@@ -1,3 +1,16 @@
-p{
-  font-size: 15px;
+.cardist:hover {
+  background-color: rgb(255, 191, 0) !important;
+  transition: color 0.3s ease;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.484);
+}
+
+.navbar .nav-link {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: rgb(255, 191, 0) !important;
 }
