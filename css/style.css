@@ -210,3 +210,7 @@ h1 {
   height: 180px;
   object-fit: cover;
 }
+
+.footer-top-border {
+    border-top: 5px solid #28a745;
+}
