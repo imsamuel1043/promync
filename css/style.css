@@ -15,7 +15,7 @@ h2{
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.689);
+  background-color: rgba(0, 0, 0, 0.205);
   font-family: 'Poppins', sans-serif;
 
 }
@@ -23,6 +23,13 @@ h2{
 .nav-transparent {
   background-color: transparent !important;
   box-shadow: none;
+}
+.nav-fungi .nav-link{
+  color: white;
+ transition: all 0.3s ease;
+}
+.nav-fungi .nav-link:hover{
+ color: rgb(102, 101, 101);
 }
 
 .banner-section {
