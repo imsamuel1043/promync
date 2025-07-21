@@ -214,3 +214,7 @@ h1 {
 .footer-top-border {
     border-top: 5px solid #28a745;
 }
+::selection {
+  background-color: #28a745; 
+  color: white;            
+}
